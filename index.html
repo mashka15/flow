@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flow — Цветочный магазин</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home">Главная</a></li>
+            <li><a href="#about">О нас</a></li>
+            <li><a href="#services">Услуги</a></li>
+            <li><a href="#gallery">Галерея</a></li>
+            <li><a href="#contacts">Контакты</a></li>
+        </ul>
+
+        <div class="social-icons">
+            <a href="https://t.me/your_channel" target="_blank">
+                <i class="fab fa-telegram-plane"></i>
+            </a>
+            <a href="https://www.instagram.com/your_page" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <section id="home">
+        <div class="hero-image-layer"></div>
+        <div class="banner">
+            <h1>Добро пожаловать в Flow!</h1>
+            <p>Погрузитесь в мир нежности и красоты цветов, созданных с любовью.</p>
+            <a href="#services" class="primary-btn">Выбрать букет</a>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>О нас</h2>
+        <div class="content">
+            <p>Мы — цветочный магазин, который несёт в мир красоту через каждое цветочное произведение. Каждая композиция — это маленькая история, отражающая ваш стиль и эмоции.</p>
+            <p>Наши флористы работают с самыми свежими цветами, чтобы создавать идеальные букеты для любых событий. В Flow мы ценим каждую деталь.</p>
+        </div>
+    </section>
+
+    <section id="services">
+        <h2>Наши услуги</h2>
+        <div class="services">
+
+            <div class="service">
+                <h3>Букеты</h3>
+                <p>Создаём букеты для всех событий — от свадеб до маленьких сюрпризов.</p>
+                <button type="button" onclick="window.location.href='service_page.html'">Подробнее</button>
+            </div>
+
+            <div class="service">
+                <h3>Декор</h3>
+                <p>Оформление мероприятий, корпоративов и свадеб.</p>
+                <button type="button" onclick="window.location.href='decor_page.html'">Подробнее</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Галерея</h2>
+
+        <div class="gallery">
+            <div class="gallery-item"><img src="im/-7.jpg" alt="Букет 1"></div>
+            <div class="gallery-item"><img src="im/%20.jpg" alt="Букет 2"></div>
+            <div class="gallery-item"><img src="im/%20-2.jpg" alt="Букет 3"></div>
+            <div class="gallery-item"><img src="im/%20-5.jpg" alt="Букет 4"></div>
+            <div class="gallery-item"><img src="im/%20-3.jpg" alt="Букет 5"></div>
+            <div class="gallery-item"><img src="im/Instagram%20@studio_dacha.jpg" alt="Букет 6"></div>
+            <div class="gallery-item"><img src="im/%20-6.jpg" alt="Букет 7"></div>
+            <div class="gallery-item"><img src="im/Нежный%20букет%20с%20белыми%20розами,%20диантусами%20и%20Альстромерией.jpg" alt="Букет 8"></div>
+        </div>
+
+        <div class="gallery-more">
+            <button type="button" class="secondary-btn" onclick="window.location.href='gallery.html'">
+                Смотреть больше
+            </button>
+        </div>
+    </section>
+
+    <section id="contacts">
+        <h2>Контакты</h2>
+        <p>Свяжитесь с нами, чтобы заказать букет или задать вопросы.</p>
+
+        <div class="contact-wrapper">
+            <form>
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Телефон:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <button type="submit">Отправить</button>
+            </form>
+        </div>
+    </section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 Flow — Цветочный магазин</p>
+</footer>
+
+</body>
+</html>
